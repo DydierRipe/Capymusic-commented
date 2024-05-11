@@ -1,0 +1,138 @@
+.title {
+    font-size: 35px;
+}
+
+.items-container {
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    height: 380px;
+}
+
+.product-information {
+    width: 50%;
+}
+
+.image-cont {
+    width: 50%;
+}
+
+.item-img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    margin: 5%;
+}
+
+.item-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.item-description {
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+.item-price {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.buy-button, .del-button{
+    width: 45%;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.buy-button > span, .del-button > span {
+    margin-top: 26px;
+    display: -webkit-inline-box;
+    display: inline-box;
+}
+
+.but-cont {
+    width: 100%;
+    display: flex;
+}
+
+.black-screen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.modal {
+    width: 500px;
+    height: 519.5px;
+    margin: calc((100vh - 519.5px) / 2) auto;
+    display: flow-root;
+}
+
+.modal-text {
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputs {
+    width: 80%;
+    margin: 10px 10%;
+    font-size: 25px;
+}
+
+.sub-button {
+    width: 80%;
+    height: 74px;
+    margin: 30px 10%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 26px;
+}
+
+.section-table {
+    width: 71%;
+    margin: auto;
+    display: flex;
+    height: 70px;
+}
+
+.section-table > div {
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+    transition: background-color .2s ease;
+}
+
+.section-table > div:hover {
+    background-color: #D0E7D2;
+}
+
+.selected {
+    background-color: #B0D9B1;
+}
+
+.error-messaje {
+    font-size: 20px;
+}

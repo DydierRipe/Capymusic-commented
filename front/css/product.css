@@ -1,0 +1,161 @@
+.content {
+    margin: 60px auto;
+    width: 65%;
+    height: fit-content;
+    filter: drop-shadow(10px 10px 2px var(--border));
+}
+
+.description {
+    font-size: 25px;
+}
+
+.product-info {
+    margin: 70px 60px 70px 60px;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    width: calc(100% - 120px);
+}
+
+.promo-title {
+    margin-top: 40px;
+    text-align: center;
+
+    font-size: 40px;
+}
+
+.product-gallery {
+    width: min-content;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product {
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+
+    transition: transform .5s;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product > h3 {
+    font-size: 30px;
+    margin: 30px 12px;
+}
+
+.product-image {
+    display: block;
+    max-width: 90%;
+    max-height: 200px;
+    margin: 12.5px auto;
+}
+
+.product-data {
+    padding-left: 10px;
+    margin-left: 20px;
+    display: block;
+    width: 100%;
+    border: 1px #000 solid;
+    border-radius: 5px;
+}
+
+.price {
+    text-align: end;
+    margin-right: 20px;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    border: 4px #000 solid;
+}
+
+.product-name {
+    font-size: 35px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buy-button, .report-button {
+    width: 45%;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.buy-button > span, .report-button > span {
+    margin-top: 26px;
+    display: -webkit-inline-box;
+    display: inline-box;
+}
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.filter-box {
+    font-size: 25px;
+    background-color: #79AC78;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sold {
+    color: #F00;
+}
+
+.black-screen {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.modal {
+    width: 500px;
+    height: 400px;
+    margin: calc((100vh - 400px) / 2) auto;
+    display: flow-root;
+}
+
+.modal-text {
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputs {
+    width: 80%;
+    margin: 10px 10%;
+    font-size: 25px;
+}
+
+.sub-button {
+    width: 80%;
+    height: 74px;
+    margin: 30px 10%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 26px;
+}
