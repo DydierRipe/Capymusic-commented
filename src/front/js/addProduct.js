@@ -10,7 +10,7 @@ const productColor = document.querySelector("#color");
 const error = document.querySelectorAll(".error-messaje");
 const submitButton = document.querySelector(".submit");
 
-const formData = new FormData();
+const formData = new FormData(); // I have literal no Idea of what this does
 const language = window.location.pathname.split('/')[1]; // gets the name form the url (es, en, de)
 setLang(language, 'addProduct'); // sets the language in the correspondient module. (more data in changelang.js)
 
